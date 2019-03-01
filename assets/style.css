@@ -38,7 +38,6 @@ header{
 }
 .navbar-toggler{
     margin-bottom: 55px;
-    background: #9A8874;
 }
 header{
     background: url("../assets/img/Fitness.jpg") no-repeat center center;
@@ -198,7 +197,7 @@ header{
 }
 input{
     padding: 5px 0px;
-    background: #fff;width: 100%;
+    background: #ddd;width: 100%;
     padding-left: 7px;font-size: 12px;
 }
 .right-icon{
@@ -207,12 +206,54 @@ input{
     background: #fff;
     display: inline-block;
     margin-left: 10px;
-    
 }
+#my-image-div .dgn{
+    margin-top: 40px;
+}
+#my-image-div .dgn a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
 @media screen and (max-width:764px){
     input{
         text-align: center;
     }
+    .header-text h3{
+        font-size: 12px;
+    }
+    .header-text p{
+        font-size: 10px;
+    }
+    #my-image-div .top-text h2{
+        font-size: 20px;
+    }
+    #my-image-div .top-text p{
+        font-size: 10px;
+        margin-bottom: 180px;
+    }
+    #my-image-div .left h3{
+        font-size: 17px;
+    }
+    #my-image-div .left p{
+        font-size: 10px;
+        margin-bottom: 55px;
+    }
+    #my-image-div .middle h3{
+        font-size: 17px;
+    }
+    #my-image-div .middle p{
+        font-size: 10px;
+    }
+    #my-image-div .dgn{
+        margin-left: 40px;
+    }
+    #my-image-div .dgn a{
+        font-size: 12px;
+    }
+
+
 }
 
 
