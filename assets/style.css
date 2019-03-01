@@ -248,6 +248,7 @@ input{
     }
     #my-image-div .dgn{
         margin-left: 40px;
+	margin-top: 22px;
     }
     #my-image-div .dgn a{
         font-size: 12px;
